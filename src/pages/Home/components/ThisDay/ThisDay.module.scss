@@ -1,0 +1,38 @@
+@import '../../../../styles/variables.scss';
+
+.this__day{
+    margin-top: 20px;
+    width: 35%;
+    padding: 20px;
+    background: var(#{--components-background-default});
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+.top__block{
+    display: flex;
+    align-items: cener;
+    justify-content: space-between;
+}
+
+.this__temp{
+    color: var(#{--text-color-default});
+    font-size: 40px;
+    font-weight: 400;
+}
+.this__temp > span{
+    color: #4793FF;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.this__weather{
+    margin-top: 20px;
+}
+
+.bottom__block{
+    margin-top: 20px;
+    color: #939CB0;
+    font-size: 25px;
+    font-weight: 400;
+}
